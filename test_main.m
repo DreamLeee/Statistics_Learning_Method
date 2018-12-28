@@ -11,4 +11,4 @@ clear all; close all;
 X = [1 1;1 2;1 2;1 1;1 1;2 1;2 2;2 2;2 3;2 3;3 3;3 2;3 2;3 3;3 3];
 Y = [-1;-1;1;1;-1;-1;-1;1;1;1;1;1;1;1;-1];
 x = [2 1];
-y = bayes_classifier(X,Y,x,1);
+y = bayes_classifier(X,Y,x,0);
